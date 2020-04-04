@@ -1,0 +1,17 @@
+/* Editor View */
+
+div[class^="wp-block-block-lab-"] ul {
+  list-style-type: none;
+}
+
+/* Public View */
+
+ul.custlp-list {
+  list-style-type: none;
+}
+
+.custlp-div a {
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 0.75%;
+}
