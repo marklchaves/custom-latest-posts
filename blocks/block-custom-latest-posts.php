@@ -39,9 +39,12 @@ $post_permalink = esc_url( get_permalink() );
 </p>
 <p>
     <a href="<?php echo $post_permalink ?>">
-        <?php echo ( block_value('read-more') ) ? block_value('read-more-text') : 'Read More'; ?>
+        <?php $read_more_text = ( block_value('read-more-text') ) ? block_value('read-more-text') : 'Read More'; ?>
+        <?php echo ( block_value('read-more') ) ? $read_more_text : ''; ?>
     </a>
 </p>
+
+<?php // To do: Figure out what to do with author and tags. ~ 5 April 2020 ?>
 
 <hr>
 
