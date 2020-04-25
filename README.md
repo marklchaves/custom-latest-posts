@@ -10,3 +10,5 @@ After trying the following methods for creating a CGB:
 4. Using [Lazy Blocks](https://lazyblocks.com/) plugin
 
 I've decided to run with **Lazy Blocks**. This repo is for documenting the work I've done using **Block Lab**.
+
+See my [cme-latest-posts repo](https://github.com/marklchaves/cme-latest-posts-cgb) for the work I've done using **Create Guten Block**.
